@@ -410,3 +410,59 @@ footer {
     right: -140px;
   }
 }
+@media (max-width: 480px) {
+
+  /* HERO */
+  .header{
+    height: 520px;
+    padding-top: 60px;
+  }
+
+  .hero-text{
+    padding: 0 10px;
+  }
+
+  .hero-text h1{
+    font-size: 44px;
+    line-height: 1.05;
+  }
+
+  .hero-btn{
+    padding: 14px 42px;
+  }
+
+  .hero-pizza{
+    width: 520px;
+    bottom: 0px;
+  }
+
+
+  /* MAIN (Özel Lezzetus) */
+  main{
+    padding: 26px 16px;
+  }
+
+  .main-card{
+    height: auto;
+    min-height: 420px;
+    padding: 40px 26px;
+  }
+
+  .main-card .main-title{
+    font-size: 62px;
+  }
+
+  .main-card-img{
+    width: 520px;
+    right: 0px;
+    top: 110px;
+  }
+
+
+  /* KURYE kart yazı görünürlüğü */
+  .kurye-card{
+    padding: 24px;
+    min-height: 200px;
+  }
+}
+
