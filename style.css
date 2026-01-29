@@ -389,7 +389,7 @@ footer {
   }
 }
 
-/* mobile fixes */
+/* mobile yeni*/
 @media (max-width: 768px) {
   .header {
     height: 760px;
@@ -437,7 +437,7 @@ footer {
   }
 
 
-  /* MAIN (Özel Lezzetus) */
+  /* lezzetus2*/
   main{
     padding: 26px 16px;
   }
@@ -459,7 +459,7 @@ footer {
   }
 
 
-  /* KURYE kart yazı görünürlüğü */
+  
   .kurye-card{
     padding: 24px;
     min-height: 200px;
