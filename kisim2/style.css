@@ -1,0 +1,166 @@
+
+/* kisim 2 css */
+
+
+.baslik {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.baslik h3 {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #ce2829;
+  font-size: 32px;
+  margin-top: 55px;
+  line-height: 42.27px;
+}
+
+.baslik h2 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 42px;
+  line-height: 56.2px;
+  margin-top: 8px;
+}
+
+
+.container-list{
+  display: flex;
+  justify-content: center;
+  margin-top: 26px;
+}
+
+.container-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container-list li {
+  text-align: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.container-list li a{
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  padding: 0 20px;
+  height: 66px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32.4px;
+  color: black;
+  background-color: white;
+}
+
+.container-list ul li:nth-child(2) a {
+  background-color: #292929;
+  color: white;
+}
+
+.back-section {
+  background: #f7f2ea;
+  width: 100%;
+
+}
+
+
+/* .card{
+  padding: 20px;
+  background-color: white;
+  gap:5px;
+} */
+
+
+
+.h-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 33px;
+  gap: 32px;
+} 
+
+.rating {
+  font-size: 14px;
+  align-items: center;
+  font-weight: 600;
+  justify-content: space-between;
+  flex: 3;
+  color: #1B1B1B;
+  opacity: 50%;
+}
+
+.reviews {
+  font-size: 13px;
+  flex: 2;
+  color: #1B1B1B;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.card p {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 10px;
+  line-height: 29.44px;
+}
+.cards {
+  width: min(1080px, 100%);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding: 32px;
+  gap: 24px;
+}
+
+.card {
+  flex: 1;
+  max-width: 340px;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: white;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  display: block;
+  margin: 6px 0 auto;
+}
+.h-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 6px;
+}
+
+.rating{
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.reviews {
+  font-size: 16px;
+  opacity: 0.55;
+}
+
